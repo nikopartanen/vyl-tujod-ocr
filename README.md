@@ -6,7 +6,7 @@ This data package contains materials for training or fine-tuning OCR models to w
 |------------ |----------------------| ---------|
 |1931         |  Molodcov   | ![](./images/1931_01.jpg) |
 |1932         |  Molodcov   |          |
-|1933         |  Molodcov   |          |
+|1933         |  Molodcov   | ![](./images/1933_12.jpg) |
 |1934         |  Molodcov   |          |
 |1935         |  Molodcov   |          |
 |1936         |  Molodcov   |          |
