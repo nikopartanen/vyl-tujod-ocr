@@ -4,7 +4,7 @@ This data package contains materials for training or fine-tuning OCR models to w
 
 | Year        | Orthography           | Example |
 |------------ |----------------------| ---------|
-|1931         |  Cyrillic Molodcov   |          |
+|1931         |  Cyrillic Molodcov   | ![](./images/1939_04.png) |
 |1932         |  Cyrillic Molodcov   |          |
 |1933         |  Cyrillic Molodcov   |          |
 |1934         |  Cyrillic Molodcov   |          |
