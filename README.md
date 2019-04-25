@@ -4,14 +4,14 @@ This data package contains materials for training or fine-tuning OCR models to w
 
 | Year        | Orthography           | Example |
 |------------ |----------------------| ---------|
-|1931         |  Cyrillic Molodcov   | ![](./images/1939_04.png) |
-|1932         |  Cyrillic Molodcov   |          |
-|1933         |  Cyrillic Molodcov   |          |
-|1934         |  Cyrillic Molodcov   |          |
-|1935         |  Cyrillic Molodcov   |          |
-|1936         |  Cyrillic Molodcov   |          |
-|1937         |  Cyrillic Molodcov   |          |
-|1938         |  Cyrillic Molodcov   |          |
+|1931         |  Molodcov   | ![](./images/1939_04.png) |
+|1932         |  Molodcov   |          |
+|1933         |  Molodcov   |          |
+|1934         |  Molodcov   |          |
+|1935         |  Molodcov   |          |
+|1936         |  Molodcov   |          |
+|1937         |  Molodcov   |          |
+|1938         |  Molodcov   |          |
 |1939         |  Cyrillic Komi       |          |
 
 The goal is to have materials from both periods, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation|.
