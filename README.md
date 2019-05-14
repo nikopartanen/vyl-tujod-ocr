@@ -1,18 +1,17 @@
 ## Выль туйӧд OCR Ground Truth
 
-This data package contains materials for training or fine-tuning OCR models to work with fonts and languages used in Выль туйӧд newspaper from 1939. One particular aspect of this data is that Zyrian Komi orthography was changed from Molodcov Komi to Cyrillic Komi in the middle of this year. 
+This data package contains materials for training or fine-tuning OCR models to work with fonts and languages used in Выль туйӧд newspaper from 1930s, accessible in the [Fenno-Ugrica collection](https://fennougrica.kansalliskirjasto.fi) of the National Library of Finland. 
+
+One particular aspect of this data is that Zyrian Komi orthography was changed several times between Molodcov Komi, Komi Latin and Cyrillic Komi, in 1939 in the middle of the year. 
 
 | Year        | Orthography           | Example |
 |------------ |----------------------| ---------|
-|1931         |  Molodcov   | ![](./images/1931_01.jpg) |
-|1932         |  Molodcov   |          |
-|1933         |  Komi Latin   | ![](./images/1933_12.jpg) |
-|1934         |  Molodcov   |          |
-|1935         |  Molodcov   |          |
-|1936         |  Molodcov   |          |
-|1937         |  Molodcov   |          |
-|1938         |  Molodcov   |          |
-|1939         |  Molodcov       |  ![](./images/1939_04.png)        |
-|1939         |  Komi Cyrillic       |  ![](./images/1939_09.jpg)        |
+|1931         |  Molodcov   | ![](./samples/1931_01.jpg) |
+|1932         |  Molodcov   | ![](./samples/1932_01_15.jpg)         |
+|1933         |  Komi Latin   | ![](./samples/1933_12.jpg) |
+|1936         |  Molodcov   | ![](./samples/1936_01_10.jpg)         |
+|1938         |  Molodcov   | ![](./samples/1938_01_12.jpg)         |
+|1939         |  Molodcov       |  ![](./samples/1939_04.png)        |
+|1939         |  Komi Cyrillic       |  ![](./samples/1939_09.jpg)        |
 
-The goal is to have materials from both periods, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation|.
+The goal is to have materials that cover all writing systems in this period, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation|.
