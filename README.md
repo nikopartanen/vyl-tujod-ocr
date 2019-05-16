@@ -1,3 +1,7 @@
+<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a></a>
+
+<a href="https://zenodo.org/badge/latestdoi/179815335"><img src="https://zenodo.org/badge/179815335.svg" alt="DOI"></a>
+
 ## Выль туйӧд OCR Ground Truth
 
 This data package contains materials for training or fine-tuning OCR models to work with fonts and languages used in Выль туйӧд newspaper from 1930s, accessible in the [Fenno-Ugrica collection](https://fennougrica.kansalliskirjasto.fi) of the National Library of Finland. 
