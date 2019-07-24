@@ -1,6 +1,19 @@
+---
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->
+
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/p/mark/1.0/88x31.png" /></a></a>
 
 <a href="https://zenodo.org/badge/latestdoi/179815335"><img src="https://zenodo.org/badge/179815335.svg" alt="DOI"></a>
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
 
 ## Выль туйӧд OCR Ground Truth
 
@@ -20,4 +33,38 @@ One particular aspect of this data is that Zyrian Komi orthography was changed s
 
 The goal is to have materials that cover all writing systems in this period, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation.
 
-Currently 
+Currently the package contains materials followingly:
+
+```{r, echo=FALSE}
+metadata <- tribble(~set, ~orthography,
+        "1933_12", "Latin",
+        "1939_04", "Molodcov",
+        "1939_09", "Cyrillic")
+
+metadata %>% knitr::kable()
+```
+
+```{r, echo=FALSE}
+# gt <- dir("data", ".gt.txt", recursive = TRUE, full.names = TRUE) %>%
+#   map_df(~ {tibble(file = .x,
+#                    text = read_lines(.x))}) %>%
+#   mutate(set = str_extract(file, "(?<=data/)[^/]+")) %>%
+#   mutate(part = str_extract(file, "(?<=data/\\d{4}_\\d{2}/)\\d+")) %>%
+#   left_join(metadata)
+# 
+# 
+# 
+# gt %>%
+#   filter(orthography == "Molodcov") %>%
+#   filter(str_detect(text, "я"))
+# 
+# gt %>%
+#   filter(orthography == "Molodcov") %>%
+#   mutate(character = str_split(text, "")) %>%
+#   unnest(character) %>%
+#   count(character) %>%
+#   arrange(n) %>%
+#   filter(n <= 3) %>%
+#   View
+```
+
