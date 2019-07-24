@@ -18,4 +18,6 @@ One particular aspect of this data is that Zyrian Komi orthography was changed s
 |1939         |  Molodcov       |  ![](./samples/1939_04.png)        |
 |1939         |  Komi Cyrillic       |  ![](./samples/1939_09.jpg)        |
 
-The goal is to have materials that cover all writing systems in this period, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation|.
+The goal is to have materials that cover all writing systems in this period, so that OCR models could perform sufficiently well on both writing systems. This is also an experiment in OCR model fine tuning and larger adaptation.
+
+Currently 
